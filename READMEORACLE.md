@@ -1,7 +1,5 @@
 # oracle
-trabajo de oracle
-
-## 🚀
+Creacion del Oracle.
 
 ## Creación de Cuenta en Oracle Cloud
 2. Ve a Oracle Cloud. 
