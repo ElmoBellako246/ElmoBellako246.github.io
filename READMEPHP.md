@@ -41,7 +41,7 @@ Este archivo almacena la configuración de la conexión a MySQL.
 $servername = "mamitasromerillo.shop";
 $username = "admin_shagy";
 $password = "Shagy123";
-$dbname = "admin_romerillo";
+$dbname = "";
 
 // Crear conexión
 $conn = new mysqli($servername, $username, $password, $dbname);
