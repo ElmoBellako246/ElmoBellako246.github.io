@@ -1,6 +1,6 @@
 # Proyecto Final de Sistemas Telematicos
-Juan Pablo Jiménez García.
-Ingenieria en Redes y Telecomunicaciones (IRT). 
+Juan Pablo Jiménez García.https://github.com/ElmoBellako246/ElmoBellako246.github.io/blob/main/assets/img/LogoUPJR.jpg
+Ingenieria en Redes y Telecomunicaciones (IRT).  
 Universidad Politecnica de Juventino Rosas (UPJR).
 
 
