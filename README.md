@@ -3,7 +3,7 @@ Juan Pablo Jiménez García.
 
 Ingenieria en Redes y Telecomunicaciones (IRT). ![screen](https://github.com/ElmoBellako246/ElmoBellako246.github.io/blob/main/assets/img/LogoUPJR.jpg)
 
-Universidad Politecnica de Juventino Rosas (UPJR).
+Universidad Politecnica de Juventino Rosas (UPJR). ![screen](https://github.com/ElmoBellako246/ElmoBellako246.github.io/blob/main/assets/img/LogoIRT.png)
 
 ## Creacion de una instancia en Oracle Cloud
 
