@@ -43,4 +43,4 @@ En nuestro caso se necesitas acceso remoto por SSH
 ## Tener seguridad en el dominio
 Esto para poder evitar algun tipo de ataque para el administrador y el usuario y no tener algun tipo de perdida de datos.
 
-![screen](https://github.com/ElmoBellako246/ElmoBellako246.github.io/blob/main/assets/img/dominioListo.png)
+![screen](https://github.com/ElmoBellako246/ElmoBellako246.github.io/blob/main/assets/img/SeguridadDom.png)
