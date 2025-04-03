@@ -37,4 +37,10 @@ Automáticamente se dará comienzo al proceso de creación de la instancia, tal 
 En nuestro caso se necesitas acceso remoto por SSH
 
 ## Observar que el dominio esta de forma correcta
+
+![screen](https://github.com/ElmoBellako246/ElmoBellako246.github.io/blob/main/assets/img/dominioListo.png)
+
+## Tener seguridad en el dominio
+Esto para poder evitar algun tipo de ataque para el administrador y el usuario y no tener algun tipo de perdida de datos.
+
 ![screen](https://github.com/ElmoBellako246/ElmoBellako246.github.io/blob/main/assets/img/dominioListo.png)
