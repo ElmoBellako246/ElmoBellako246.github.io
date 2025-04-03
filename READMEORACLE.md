@@ -9,6 +9,10 @@ Creacion del Oracle.
 6. Accede al Panel de Oracle Cloud para gestionar tus servicios.
 
 ![screen](https://github.com/JAlfredo420/Sistemas-Telem-ticos/blob/e894733406414ed0b886e38baaa08b5d65f75c11/Oracle/Ima/creatorin.png)
+
+Y tener la aplicacion movile del Oracle para darnos el acceso y poder entrar.
+![screen](https://github.com/ElmoBellako246/ElmoBellako246.github.io/blob/main/assets/img/WhatsApp%20Image%202025-04-03%20at%209.58.43%20AM.jpeg)
+
 ## Creacion de una instancia en Oracle Cloud
 1. Inicia sesión en Oracle Cloued con tu nombre de cliente en la nube proporcionado por Oracle.
 
