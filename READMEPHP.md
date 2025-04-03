@@ -1,24 +1,24 @@
-# 🚀 Proyectos PHP e Integración IoT
+# Proyectos PHP e Integración IoT
 
 Esta documentación agrupa varios proyectos desarrollados con PHP, MySQL y tecnologías asociadas para el registro y visualización de datos.
 
 ---
 
-## 📊 Proyecto: Registro en Tabla
+## Proyecto: Registro en Tabla
 
 Este proyecto se enfoca en crear una tabla en una base de datos MySQL para almacenar datos capturados por sensores y presentarlos en una página web. Se utilizan PHP y MySQL para gestionar tanto la base de datos como la visualización de la información.
 
-### 📖 Tecnologías Utilizadas
+### Tecnologías Utilizadas
 - *PHP*: Para establecer la conexión y manipular la base de datos.
 - *MySQL*: Para el almacenamiento de la información.
 - *HTML*: Para mostrar la tabla en el sitio web.
 - *Servidor Web*: Apache u otro compatible con PHP y MySQL.
 
-### 🛠 Configuración de la Base de Datos
+### Configuración de la Base de Datos
 
 Antes de iniciar el proyecto, verifica que la base de datos esté correctamente configurada.
 
-#### 1️⃣ Paso 1: Crear la Base de Datos y la Tabla
+#### Paso 1: Crear la Base de Datos y la Tabla
 
 Ejecuta el siguiente script SQL en phpMyAdmin o mediante la consola de MySQL
 ```sql
@@ -34,7 +34,7 @@ CREATE TABLE registro (
 );
 ```
 ### Archivos del Proyecto
-### 1️⃣ db_config.php - Configuración de la Conexión a la Base de Datos
+### db_config.php - Configuración de la Conexión a la Base de Datos
 Este archivo almacena la configuración de la conexión a MySQL.
 ```
 <?php
@@ -52,7 +52,7 @@ if ($conn->connect_error) {
 }
 ?>
 ```
-## 2️⃣ insert.php - Insertar Datos en la Tabla
+##  insert.php - Insertar Datos en la Tabla
 Este script permite insertar datos en la tabla registro desde PHP.
 ```
 <?php
@@ -69,7 +69,7 @@ if ($conn->query($sql) === TRUE) {
 $conn->close();
 ?>
 ```
-## 3️⃣ index.php - Mostrar Datos en una Tabla
+##  index.php - Mostrar Datos en una Tabla
 Este script obtiene y muestra los datos almacenados en la base de datos.
 ```
 <?php
@@ -104,12 +104,12 @@ if ($result->num_rows > 0) {
 $conn->close();
 ?>
 ```
-## 📌 Proyecto Gestión de Sensores
+##  Proyecto Gestión de Sensores
 Este proyecto consiste en una API desarrollada en PHP que recibe información en formato JSON y la guarda en una base de datos MySQL. Es perfecto para su integración con sistemas IoT o cualquier aplicación que necesite almacenar datos de sensores en tiempo real.
 #### 🛠 Configuración de la Base de Datos
 Antes de poner en marcha el proyecto, asegúrate de tener la base de datos correctamente configurada.
 
-## 1️⃣ Crear la Base de Datos y la Tabla
+##  Crear la Base de Datos y la Tabla
 Ejecuta el siguiente comando SQL en phpMyAdmin o en la consola de MySQL:
 ```
 CREATE DATABASE admin_romerillo;  
@@ -123,8 +123,8 @@ CREATE TABLE registro (
     valor FLOAT NOT NULL  
 );  
 ```
-## 🚀 Archivos del Proyecto
-## 1️⃣ db_config.php - Configuración de la Conexión con la Base de Datos
+##  Archivos del Proyecto
+##  db_config.php - Configuración de la Conexión con la Base de Datos
 Este archivo se encarga de establecer la conexión entre PHP y MySQL.
 ```
 <?php
@@ -142,7 +142,7 @@ if ($conn->connect_error) {
 }
 ?>
 ```
-## 2️⃣ recibir_datos.php - Procesar y Almacenar los Datos
+##  recibir_datos.php - Procesar y Almacenar los Datos
 Este archivo se encarga de recibir los datos en formato JSON mediante una solicitud POST, procesarlos y almacenarlos en la base de datos.
 ```
 <?php
@@ -174,10 +174,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 $conn->close();
 ?>
 ```
-## 📌 Proyecto Dientes (Bluetooth)
+## Proyecto Dientes (Bluetooth)
 Este proyecto implementa un sistema para transmitir datos desde un ESP32 a un servidor PHP utilizando Bluetooth Serial. Una vez que los datos se reciben a través de Bluetooth, se envían a una base de datos MySQL a través de una API en PHP mediante conexión WiFi.
 
-## 📖 Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - ESP32 (Placa de desarrollo)
 
@@ -191,16 +191,16 @@ Este proyecto implementa un sistema para transmitir datos desde un ESP32 a un se
 
 - Arduino IDE (Para programar el ESP32)
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
-- 📄 db_config.php # Configuración de la base de datos
+-  db_config.php # Configuración de la base de datos
 
-- 📄 recibir_datos.php # API que recibe los datos y los almacena en la BD
+-  recibir_datos.php # API que recibe los datos y los almacena en la BD
 
-- 📄 ESP32_Bluetooth.ino # Código del ESP32 para recibir datos y enviarlos
+-  ESP32_Bluetooth.ino # Código del ESP32 para recibir datos y enviarlos
 
-## 🚀 Archivos del Proyecto
-#### 📌 db_config.php - Configuración de la Conexión con la Base de Datos
+## Archivos del Proyecto
+#### db_config.php - Configuración de la Conexión con la Base de Datos
 Este archivo establece la conexión entre PHP y MySQL.
 
 ```
@@ -217,7 +217,7 @@ if ($conn->connect_error) {
 }
 ?>
 ```
-### 📌 recibir_datos.php - API para Procesar y Almacenar Datos
+### recibir_datos.php - API para Procesar y Almacenar Datos
 Este archivo recibe los datos en formato JSON mediante una solicitud POST y los guarda en la base de datos.
 ```
 <?php
