@@ -1,8 +1,11 @@
 # Proyecto Final de Sistemas Telematicos
 Juan Pablo Jiménez García.
+
 Ingenieria en Redes y Telecomunicaciones (IRT). ![screen](https://github.com/ElmoBellako246/ElmoBellako246.github.io/blob/main/assets/img/LogoUPJR.jpg)
-## Creacion de una instancia en Oracle Cloud
+
 Universidad Politecnica de Juventino Rosas (UPJR).
+
+## Creacion de una instancia en Oracle Cloud
 
 
 ## Índice
