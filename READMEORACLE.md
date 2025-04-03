@@ -22,9 +22,6 @@ trabajo de oracle
 
 ## 2.Configurar la Instancia
 
-## Imagen del SO 
-(ejemplo: Ubuntu 22.04).
-
 # Forma de la Máquina Virtual:
 * Para opciones gratuitas, selecciona "Ampere A1 Compute" o "VM.Standard.E2.1.Micro".
 * Para instancias más potentes, elige una configuración personalizada.
@@ -38,3 +35,6 @@ Solo nos resta presionar el botón "Crear" para dar comienzo a la creación de l
 Automáticamente se dará comienzo al proceso de creación de la instancia, tal como vemos a continuación, y en algo menos de un minuto la misma estará disponible.
 
 En nuestro caso se necesitas acceso remoto por SSH
+
+## Observar que el dominio esta de forma correcta
+![screen](https://github.com/ElmoBellako246/ElmoBellako246.github.io/blob/main/assets/img/dominioListo.png)
